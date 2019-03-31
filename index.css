@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:"Trebuchet MS", helvetical, sans-serif;
+    font-size:14px;
+}
+
+nav{
+    background:black;
+    height:60px;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    color:white;
+    justify-content:space-between;
+}
+.nav-right-list{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:center;
+}
+.nav-right-list > div{
+    border-radius:5px;
+    padding: 0 10px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.nav-right-list > div:nth-child(3){
+    background:#1E241F;
+}
+.nav-right-list > div:nth-child(5){
+    background:#1E241F;
+}
+.nav-right-list > div:nth-child(4){
+    background:#4DEF7B;
+    color:black;
+}
+.grey{
+    border:3px solid #939890;
+}
+.nav-right-list > div > img{
+    width:auto;
+    height:auto;
+    max-width:18px;
+    max-height:30px;
+}
+.change-view span{
+    height:20px;
+    width:30px;
+    border:2px solid #939890;
+    border-top:5px solid #939890;
+    border-radius:5px;
+    display:flex;
+    justify-content:center;
+}
+.change-view span>img{
+    width:auto;
+    height:auto;
+    max-width:16px;
+    max-height:18px;
+}
+.code-pen-fcc img{
+    position:absolute;
+    width:auto;
+    height:auto;
+    max-width:40px;
+    max-height:40px;
+    float:left;
+}
+.code-pen-fcc {
+    align-self:center;
+    display:flex;
+    flex-direction:column;
+}
+.code-pen-fcc > span{
+    margin-left:50px;
+}
+.code-pen-fcc > span > b{
+    font-size:10px;
+    color:#939890;
+}
+.code-pen-fcc > span:nth-child(3){
+    font-size:12px;
+}
+#main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background:#F2F3F2;
+}
+#main > ul>li{
+    align-self:center;
+    max-width:50%;
+    width:auto;
+    margin:auto;
+}
+#title{
+    text-align: center;
+}
+figure img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+}
+figure{
+    width:auto;
+    background:white;
+}
+footer{
+    text-align:center;
+}
+footer a{
+    font-weight:600;
+}
